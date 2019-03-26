@@ -1,0 +1,17 @@
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+.header {
+    color: black;
+}
+
+.main {
+    background-color: grey;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

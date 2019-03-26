@@ -1,4 +1,14 @@
 {% block app_content %}
-<h1>Welcome to Fifa Player Searcher</h1>
-<a href="/search/"> Go!</a>
+<html class='main'>
+
+<head>
+    <h1 class='header' style="color:black;margin-top:5%;margin-left:33%;align-content: center">Welcome to Fifa Player
+        Searcher</h1>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/home.css') }}">
+</head>
+<a href="/search/" style="text-decoration: none">
+    <h1 class="blink_me" style="margin-left:50%;margin-top:10%;color:red;text-decoration:none;"> GO!</h1>
+</a>
+
+</html>
 {% endblock %}
